@@ -1,4 +1,5 @@
 # 🌟 Aspect-Based Sentiment Analysis (ABSA) pada Ulasan Pariwisata
+<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/3c05e692-5ffa-4f5f-a4d9-7bc58dbc9337" />
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/ariiii4545452/absa-proyek-akhir-nlp)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
@@ -96,12 +97,15 @@ print(f"Hasil Ekstraksi: {hasil}")
 # Ekspektasi Output: akses jalan:negative, fasilitas:negative, aktivitas wisata:positive
 
 ```
+## ⚖️ Ruang Lingkup Proyek & Kredit (Klaim Orisinalitas)
+Proyek ini dibangun dengan mengadopsi kerangka kerja dari penelitian resmi **InstructABSA**. Untuk menjaga integritas akademis, berikut adalah rincian batasan kontribusi dalam proyek ini:
 
-## 👨‍💻 Penulis
-
-* **Moch Sigit Aringga** (230411100104)
-* Program Studi Teknik Informatika - Universitas Trunojoyo Madura (2026)
-* Diajukan sebagai Proyek Akhir Mata Kuliah Pemrosesan Bahasa Alami (NLP).
+* **Diadopsi dari Paper Asli (InstructABSA):** Kerangka pemrosesan instruksi (`InstructionsHandler`), modul pelatihan dasar model T5 (`T5Generator`), dan rancangan metrik evaluasi.
+* **Kontribusi Orisinal (Fokus Modifikasi Proyek Ini):**
+  1. Pengumpulan, pembersihan, dan translasi dataset ulasan pariwisata berbahasa Indonesia (Bandung Barat).
+  2. Penyesuaian bahasa *few-shot prompt* agar model bahasa Inggris dapat mengerti konteks pariwisata lokal.
+  3. Perancangan dan pembuatan **Antarmuka Pengguna (UI)** interaktif berbasis **Streamlit** dari nol (beserta modifikasi CSS khusus).
+  4. Penyatuan sistem menjadi aplikasi *End-to-End* dan peluncurannya (*Deployment*) ke peladen awan **Hugging Face Spaces**.
 
 ## 📄 Lisensi
 
@@ -109,10 +113,3 @@ print(f"Hasil Ekstraksi: {hasil}")
 
 ```
 
-***
-
-**Tips Penyesuaian:**
-1. Pada bagian "Kloning Repositori", ganti `https://github.com/username-kamu/nama-repo-kamu.git` dengan *link* repositori GitHub/Hugging Face aslimu jika kamu mengunggahnya.
-2. Panjang baris kodenya (khususnya di area `prompt`) sudah saya potong-potong ke bawah menggunakan tanda kutip bertingkat agar rapi ke bawah dan tidak kepotong ke samping saat dilihat di mode teks biasa.
-
-```
