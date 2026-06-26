@@ -1,10 +1,3 @@
-Tentu! Membuat berkas `README.md` yang profesional, rapi, dan informatif adalah langkah terakhir yang sangat krusial agar repositori GitHub atau Hugging Face-mu terlihat meyakinkan di mata dosen maupun rekruter (jika dijadikan portofolio).
-
-Berikut adalah *draft* struktur `README.md` yang sudah disesuaikan dengan seluruh spesifikasi proyekmu. Kamu tinggal menyalin (*copy-paste*) teks di bawah ini ke dalam *file* `README.md`.
-
----
-
-```markdown
 # 🌟 Aspect-Based Sentiment Analysis (ABSA) pada Ulasan Pariwisata
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://huggingface.co/spaces/ariiii4545452/absa-proyek-akhir-nlp)
